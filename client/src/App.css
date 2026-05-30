@@ -116,3 +116,56 @@ button {
   margin-bottom: 20px;
   color: #38bdf8;
 }
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #061538;
+}
+
+.login-box {
+  background: #1c2a44;
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box h1 {
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-box input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+}
+
+.login-box button {
+  background: #22c55e;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+}
